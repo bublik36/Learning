@@ -1,0 +1,21 @@
+product_id,product_name,category,price,quantity_sold,date
+1,Apple iPhone 13,Electronics,799.99,150,2023-01-15
+2,Samsung Galaxy S21,Electronics,699.99,120,2023-01-20
+3,Dell XPS 13,Laptops,999.99,80,2023-01-25
+4,HP Spectre x360,Laptops,1099.99,60,2023-02-05
+5,Sony WH-1000XM4,Headphones,349.99,200,2023-02-10
+6,Bose QuietComfort 35 II,Headphones,299.99,180,2023-02-15
+7,Nike Air Max 270,Shoes,149.99,300,2023-02-20
+8,Adidas Ultraboost,Shoes,179.99,250,2023-03-01
+9,Samsung QLED TV 55",Televisions,1299.99,70,2023-03-05
+10,LG OLED TV 65",Televisions,2499.99,40,2023-03-10
+11,Xbox Series X,Gaming Consoles,499.99,150,2023-03-15
+12,PlayStation 5,Gaming Consoles,499.99,140,2023-03-20
+13,Nintendo Switch,Gaming Consoles,299.99,180,2023-03-25
+14,Microsoft Surface Pro 7,Laptops,749.99,90,2023-04-01
+15,Razer Blade 15,Gaming Laptops,1999.99,50,2023-04-05
+16,Fujifilm X-T4,Cameras,1699.99,30,2023-04-10
+17,Cannon EOS R,Cameras,1899.99,25,2023-04-15
+18,Sony A7 III,Cameras,1999.99,20,2023-04-20
+19,Bose SoundLink Revolve+,Speakers,199.99,220,2023-04-25
+20,JBL Charge 4,Speakers,149.99,240,2023-05-01
