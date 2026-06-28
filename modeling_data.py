@@ -2,15 +2,10 @@ import numpy as np
 import get_data as main_data
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 df = main_data.df()
-
-print(df)
 
 
 def create_model(data, thing):
