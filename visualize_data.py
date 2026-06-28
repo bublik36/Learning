@@ -35,8 +35,11 @@ def __total_in_moth(data):
 def all_graphs(data):
     fig, ax = plt.subplots(3, 1, figsize=(100, 100))
     ax[0].pie(data["total"], labels=data["product_name"])
+    ax[0].set_title("доля предмета в продажах")
     plt_moths, total_money_moth = __total_in_moth(data)
     ax[1].plot(plt_moths, total_money_moth)
+    ax[1].set_title("суммарная прибыль по месяцам")
     category, categoty_quantity_sold = __years_buying(data)
     ax[2].bar(category, categoty_quantity_sold)
+    ax[2].set_title("суммарные продажи товаров за год")
     plt.show()
