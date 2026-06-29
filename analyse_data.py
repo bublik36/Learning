@@ -1,10 +1,11 @@
 import get_data as data
 import numpy as np
+import asyncio as asyn
 
 _data = data.df()
 
 
-def find_static_total(data):
+async def find_static_total(data):
     mean_data = np.mean(np.array(data["total"]))
     median = np.median(np.array(data["total"]))
     despers = np.std(np.array(data["total"]))
@@ -21,7 +22,7 @@ def find_static_total(data):
     )
 
 
-def top_five_sold_info(data):
+async def top_five_sold_info(data):
     all_solden = np.array(data["quantity_sold"])
     names_solden = np.array(data["product_name"])
     top_five_solden_index = np.argpartition(all_solden, -5)[-5:]

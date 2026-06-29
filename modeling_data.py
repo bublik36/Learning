@@ -4,11 +4,12 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.feature_extraction.text import TfidfVectorizer
+import asyncio as asyn
 
 df = main_data.df()
 
 
-def create_model(data, thing):
+async def create_model(data, thing):
     returned_text = thing + " купят с вероятностью: "
     category_x = np.array(data["category"])
     price_y = np.array(data["buying_mean"])
